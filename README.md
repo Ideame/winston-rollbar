@@ -25,7 +25,7 @@ A [rollbar][1] transport for [winston][0].
 The Rollbar transport uses [node-rollbar](https://github.com/rollbar/node_rollbar) behind the scenes.  Options are the following:
 
 * **rollbarAccessToken**:   Rollbar post server item access token.
-* **rollbarConfig**:        Rollbar configuration ([more info](https://rollbar.com/docs/project/2757/items_node/)) (optional).
+* **rollbarConfig**:        Rollbar configuration ([more info](https://rollbar.com/docs/notifier/node_rollbar/#configuration-reference)) (optional).
 * **metadataAsRequest**:    Uses metadata object as Rollbar's request parameter. (default: **false** will send for **meta.req** if provided)
 * **level**:                Level of messages this transport should log. (default: **warn**).
 * **silent**:               Boolean flag indicating whether to suppress output (default: **false**).
