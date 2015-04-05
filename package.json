@@ -10,10 +10,11 @@
     },
     "keywords": ["logging", "sysadmin", "tools", "winston", "rollbar"],
     "dependencies": {
-        "rollbar": "0.3.2"
+        "rollbar": "0.4.4",
+      "winston": "^0.8.3"
     },
     "devDependencies": {
-        "winston": "0.6.2",
+
         "vows": "0.7.0"
     },
     "main": "./lib/winston-rollbar",
