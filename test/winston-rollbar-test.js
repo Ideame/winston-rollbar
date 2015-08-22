@@ -15,7 +15,7 @@ function assertRollbar (transport) {
     assert.isFunction(transport.log);
 }
 
-var transport = new (Rollbar)({ rollbarAccessToken: 'mockToken' });
+var transport = new (Rollbar)({ rollbarAccessToken: '8802be7c990a4922beadaaefb6e0327b' });
 
 vows.describe('winston-rollbar').addBatch({
     "An instance of the Rollbar Transport": {
