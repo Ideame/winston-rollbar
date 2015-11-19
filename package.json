@@ -16,11 +16,11 @@
     "rollbar"
   ],
   "dependencies": {
-    "rollbar": "0.5.8"
+    "rollbar": "0.5.10"
   },
   "devDependencies": {
     "vows": "^0.8.1",
-    "winston": "0.6.2"
+    "winston": "2.1.1"
   },
   "main": "./lib/winston-rollbar",
   "scripts": {
