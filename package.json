@@ -16,7 +16,7 @@
     "rollbar"
   ],
   "dependencies": {
-    "rollbar": "0.5.10"
+    "rollbar": "0.5.11"
   },
   "devDependencies": {
     "vows": "^0.8.1",
