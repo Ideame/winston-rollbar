@@ -1,7 +1,7 @@
 {
   "name": "winston-rollbar",
   "description": "A Rollbar transport for winston",
-  "version": "0.1.10",
+  "version": "0.2.0",
   "author": "Juan Pablo Garcia Dalolla <juanpablogarcia@gmail.com> (http://jpgarcia.com.ar)",
   "license": "MIT",
   "repository": {
@@ -16,7 +16,7 @@
     "rollbar"
   ],
   "dependencies": {
-    "rollbar": "0.6.3"
+    "rollbar": "1.9.4"
   },
   "devDependencies": {
     "vows": "^0.8.1",
